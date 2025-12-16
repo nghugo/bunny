@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "scheme": "chrome-extension",
+          "host": "<extension_id>",
+          "path": "/src/router/router.html",
+          "queryTransform": {
+            "addOrReplaceParams": [
+              {
+                "key": "q",
+                "value": "{q}"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "*://www.google.com/search?*&ref=bookmark*",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

@@ -1,0 +1,22 @@
+extensions:
+  - keyword: m
+    name: "Google Maps"
+    searchUrl: "https://www.google.com/maps/search/%s"
+  - keyword: y
+    name: "YouTube"
+    searchUrl: "https://www.youtube.com/results?search_query=%s"
+  - keyword: d
+    name: "Google Drive"
+    searchUrl: "https://drive.google.com/drive/search?q=%s"
+  - keyword: a
+    name: "Amazon UK"
+    searchUrl: "https://www.amazon.co.uk/s?k=%s"
+  - keyword: g
+    name: "Google Search"
+    searchUrl: "https://www.google.com/search?q=%s"
+  - keyword: gh
+    name: "GitHub"
+    searchUrl: "https://github.com/search?q=%s"
+  - keyword: qq
+    name: "ChatGPT"
+    searchUrl: "https://chatgpt.com/?q=%s"

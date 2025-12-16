@@ -1,0 +1,19 @@
+{
+  "name": "bunny",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "setup": "npm install && npm run generate && npm run build",
+    "generate": "node scripts/generate-manifests.js",
+    "build": "node scripts/build.js",
+    "dev": "npm run generate && npm run build"
+  },
+  "dependencies": {
+    "yaml": "^2.3.1"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.2.0",
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^7.3.0"
+  }
+}
