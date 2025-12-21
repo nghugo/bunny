@@ -48,7 +48,7 @@ You can add, remove, or change these shortcuts by editing `extensions.yaml`.
 
 ## Prerequisites
 
-- Node.js 20.19+ or 22.12+ (Vite requirement)
+- Node.js with version v, where 20.19.0 ≤ v < 21, or v ≥ 22.12.0
 - npm or yarn
 - Chrome browser
 - Basic familiarity with Chrome extension management

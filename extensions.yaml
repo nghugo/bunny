@@ -14,9 +14,17 @@ extensions:
   - keyword: g
     name: "Google Search"
     searchUrl: "https://www.google.com/search?q=%s"
+  - keyword: r
+    name: "Reddit"
+    searchUrl: "https://www.google.com/search?q=%s+reddit"
   - keyword: gh
     name: "GitHub"
     searchUrl: "https://github.com/search?q=%s"
   - keyword: qq
     name: "ChatGPT"
     searchUrl: "https://chatgpt.com/?q=%s"
+  - keyword: chat
+    name: "ChatGPT"
+    searchUrl: "https://chatgpt.com/?q=%s"
+  
+      
