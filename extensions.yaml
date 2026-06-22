@@ -26,5 +26,11 @@ extensions:
   - keyword: chat
     name: "ChatGPT"
     searchUrl: "https://chatgpt.com/?q=%s"
+  - keyword: p
+    name: "The Pirate Bay"
+    searchUrl: "https://thepiratebay.org/search.php?q=%s"
+  - keyword: l
+    name: "1337x"
+    searchUrl: "https://1337x.to/search/%s/1/"
   
       
